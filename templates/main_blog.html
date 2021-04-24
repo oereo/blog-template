@@ -5,18 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- custom css -->
     <link rel="stylesheet" href="../static/springFall.css">
     <link rel="stylesheet" href="../static/card.css">
     <link rel="stylesheet" href="../static/mainBlog.css">
     <link rel="stylesheet" href="../static/blogNavbar.css">
 
-    <title>Document</title>
-
-
+    <title>LikeLion's Blog</title>
 </head>
 
 <body>
     <nav class="navigation">
+        <!-- navbar 
+            navbar 관련 코드 파트 입니다.
+            - <a> tag 안에 지정한 url을 넣어주시면 됩니다.
+            - 각각 data-hover 를 주고 있기 때문에 hover effect를 넣어주시고 싶으시다면 넣어주시기 바랍니다.
+         -->
         <ul class="menu">
             <li class="menu__item">
                 <a href="#" class="menu__link">
@@ -84,10 +89,15 @@
             </li>
         </ul>
 
+        <!-- main header -->
         <div class="header">
             <h1>Story <span>of the</span> Spring</h1>
         </div>
+
         <main>
+            <!-- Main description
+                Blog identity를 적는 공간입니다. 
+             -->
             <p>
                 <h1>oereo's blog</h1>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -97,13 +107,21 @@
                 release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
                 software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
-            <!-- <hr> -->
         </main>
 
         <div class="support-grid"></div>
+
+        <!-- Sub header 
+            - Main page에 보여질 컨텐츠의 제목을 적는 공간입니다.
+            - point color는 pink 입니다.
+        -->
         <div class="post-header">
             <span class = "point-color">M</span>y <span class = "point-color">P</span>ost
         </div>
+
+        <!-- My post 
+            블로그 주인이 작성한 게시물들이 올라오는 공간입니다. 최신순으로 3개까지 노출이 되도록 합니다.    
+         -->
         <div class="band">
             <div class="item-1">
                 <a href="" class="card">
@@ -147,6 +165,10 @@
             <br>
             <span class = "point-color">C</span>ommunication <span class = "point-color">B</span>oard
         </div>
+
+        <!-- Coummunication Board 
+            - 블로그에 들어온 사람이 자유롭게 적은 게시글들이 올라오는 공간입니다.
+         -->
         <div class="band">
             <div class="item-4">
                 <a href="" class="card">
@@ -206,6 +228,8 @@
         });
     </script>
 </body>
+<!-- Sakura Effect 
+    - 벚꽃이 떨어지는 효과를 주기 위한 js 파일입니다.
+ -->
 <script src="../static/sakuraEffect.js"></script>
-
 </html>
