@@ -68,3 +68,7 @@ hr {
     font-family: 'Sucrose Bold Two';
     font-size: 2.7rem;
 }
+
+.point-color {
+    color : pink;
+}
