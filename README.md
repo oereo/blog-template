@@ -5,7 +5,7 @@
 
 ### 0. Language
 - HTML
-- CSS
+- CSS, SASS
 - JAVA SCRIPT
 - THREE.JS (예정)
   
@@ -21,7 +21,10 @@
 
 
 ### 3. 추가 사항 리스트
-- [ ] Animation (dog)
+- [x] Animation (dog)
+- [ ] 게시판 디자인
+- [ ] Modal
+- [ ] Toast
 
 ### 4. Refactor  
 - [ ] Footer color
