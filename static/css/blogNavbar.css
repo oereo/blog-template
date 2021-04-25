@@ -8,7 +8,7 @@ a {
     outline: 0;
     text-decoration: none;
 }
-.navigation {
+.main-container {
     width: 100%;
     border-bottom: 3px solid #ccd7d7;
     font-family: 'Pathway Gothic One', sans-serif;
