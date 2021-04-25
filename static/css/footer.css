@@ -19,7 +19,9 @@
 }
 
 footer {
-    background-color: #faddd7;
+    /* background-color: #faddd7; */
+    background-color : #424242;
+    /* background-color : white; */
     position: relative;
     z-index: 1;
 }
@@ -29,7 +31,7 @@ footer > ul {
     margin-left: 7%;
     max-width: 1200px;
     overflow: hidden;
-    padding: 25px 0;
+    padding: 25px 0 7px 0;
     position: relative;
     width: 95%;
 }
@@ -59,7 +61,7 @@ footer > ul li .icon {
 }
     
 footer > ul li .text {
-    color: #413e35;
+    color: #ffffff;
     font-size: 13px;
     line-height: 20px;
     margin-left: 105px;
@@ -68,7 +70,7 @@ footer > ul li .text {
 }
     
 .text h4 {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -85,8 +87,8 @@ footer > ul li .text {
 }
 
 footer .bar {
-    background-color: black;
-    padding: 20px 0;
+    background-color: #424242;
+    padding: 5px 0;
     text-align: center;
 }
     
@@ -168,7 +170,7 @@ footer .bar-wrap {
 }
 
 .copyright {
-    color: #778888;
+    color: #ffffff;
     margin-top: 5px;
 }
     
