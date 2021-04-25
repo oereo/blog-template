@@ -19,14 +19,14 @@
 }
 
 footer {
-    background-color: #2E3639;
+    background-color: #faddd7;
     position: relative;
     z-index: 1;
 }
 
 footer > ul {
     list-style: none outside none;
-    margin: 0 auto;
+    margin-left: 7%;
     max-width: 1200px;
     overflow: hidden;
     padding: 25px 0;
@@ -59,7 +59,7 @@ footer > ul li .icon {
 }
     
 footer > ul li .text {
-    color: #848889;
+    color: #413e35;
     font-size: 13px;
     line-height: 20px;
     margin-left: 105px;
@@ -76,7 +76,7 @@ footer > ul li .text {
     
 .text a {
     border-bottom: 1px dotted transparent;
-    color: #FFDD00;
+    color: #f26878;
     font-weight: bold;
 }
 
@@ -85,7 +85,7 @@ footer > ul li .text {
 }
 
 footer .bar {
-    background-color: #1E2629;
+    background-color: black;
     padding: 20px 0;
     text-align: center;
 }
@@ -172,5 +172,7 @@ footer .bar-wrap {
     margin-top: 5px;
 }
     
-    
+.footer-point-color {
+    color: #f26878;
+}    
     
