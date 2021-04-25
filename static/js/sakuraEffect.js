@@ -53,9 +53,9 @@
         var defaults = {
             blowAnimations: ['blow-soft-left', 'blow-medium-left', 'blow-hard-left', 'blow-soft-right', 'blow-medium-right', 'blow-hard-right'],
             className: 'sakura',
-            fallSpeed: 0.5,
-            maxSize: 16,
-            minSize: 10,
+            fallSpeed: 0.3,  // 숫자가 작을수록 빨리 떨어짐
+            maxSize: 16, // 벚꽂 사이즈 최대 크기
+            minSize: 10, // 벚꽃 사이즈 최소 크기
             newOn: 300,
             swayAnimations: ['sway-0', 'sway-1', 'sway-2', 'sway-3', 'sway-4', 'sway-5', 'sway-6', 'sway-7', 'sway-8']
         };
